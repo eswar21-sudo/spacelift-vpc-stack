@@ -1,5 +1,5 @@
-module "vpc" {
-  source = "spacelift.io/kumar/terraform-aws-spacelift-vpc/aws"
+module "spacelift-vpc" {
+  source = "spacelift.io/kumar/spacelift-vpc/aws"
   version = "0.1.0"
 
   cidr_block           = "10.0.0.0/16"
